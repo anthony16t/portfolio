@@ -1,0 +1,25 @@
+[
+    {
+        "start":"2021",
+        "end":"2021",
+        "id":0,
+        "works":[
+            {
+                "id":0,
+                "name":"Mongodb TodoApp",
+                "image":"/static/images/projects/mongodbTodoApp.png",
+                "overview":"A next.js and mongodb todo app with dark mode.",
+                "skills":["React","Next.Js","Html","Css","Javascript"],
+                "url":"https://nextjs-mondodb-todo-app.vercel.app/"
+            },
+            {
+                "id":1,
+                "name":"Google clone",
+                "image":"/static/images/projects/googleClone.png",
+                "overview":"I made this google home page clone to practice my css design.",
+                "skills":["Html","css"],
+                "url":"/projects/googleClone/"
+            }
+        ]
+    }
+]
