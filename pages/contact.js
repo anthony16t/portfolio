@@ -1,12 +1,14 @@
 import Head from "next/head";
-import ContactMe from "../components/ContactMe";
-import Page from "../components/Page";
+import Contacts from "../components/page/Contact.page";
+
 
 export default function Contact(){
     return (
-        <Page noMargin>
-            <Head> <title>Contact | Anthony</title> </Head>
-            <ContactMe />
-        </Page>
+        <>
+        <Head>
+            <title>Contact | Anthony</title>
+        </Head>
+        <Contacts/>
+        </>
     )
 }

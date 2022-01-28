@@ -1,14 +1,13 @@
 import Head from "next/head"
-import Page from "../components/Page"
-import WorksSections from "../components/Works"
+import WorksPage from "../components/page/Works.page"
 
 export default function Works(){
     return (
-        <Page>
-            <Head>
-                <title>Works | Anthony</title>
-            </Head>
-            <WorksSections />
-        </Page>
+        <>
+        <Head>
+            <title>My works | Anthony</title>
+        </Head>
+        <WorksPage />
+        </>
     )
 }

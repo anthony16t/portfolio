@@ -8,6 +8,7 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                 <link rel="shortcut icon" href="/static/images/favicon.png" />
+                <link rel="icon" type="image/png" href="/static/images/favicon.png" />
                 <meta name="description" content={desc} />
                 <meta name="keywords" content="web, developer, front-end, back-end" />
                 <meta property="og:site_name" content="Anthony"/>
@@ -15,7 +16,7 @@ class MyDocument extends Document {
                 <meta property="og:type" content="website"/>
                 <meta property="og:title" content={title}/>
                 <meta property="og:description" content={desc} />
-                <meta property="og:url" content="https://seehd.nl/"/>
+                <meta property="og:url" content="https://anthony16t.com/"/>
                 <meta property="og:image" content="/static/images/backdrop.png"/>
                 <meta property="og:image:secure_url" content="/static/images/backdrop.png"/>
                 <meta property="twitter:card" content="summary"/>
